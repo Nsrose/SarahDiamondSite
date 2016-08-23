@@ -16,7 +16,7 @@ html {
 
 body {
     margin: 0px;
-    font-family:'Montserrat','helvetica neue';
+    font-family: 'Lora', serif;
 }
 
 a {
@@ -72,17 +72,21 @@ a:hover {
     background: -o-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0));/* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0));/* For Firefox 3.6 to 15 */
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0));/* Standard syntax */
-    border: none;
     border-radius: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .navbar.scrolled {
-    background: rgb(68, 68, 68); //IE
-    background: rgba(0, 0, 0, 0.78); //NON-IE
+     //
+     IE
+    background: rgba(0, 0, 0, 0.78); //
+     NON-IE;
+     background-color: rgb(51, 52, 71);
+     border-bottom: 1px solid grey;
+     box-shadow: 0 3px 3px rgba(0,0,0,0.3);
 }
 .hero-content {
-    width: 500px;
+    width: 700px;
     text-align: center;
     padding-top: 150px;
     color: white;
@@ -92,6 +96,7 @@ a:hover {
     margin-right: auto;
     left: 0;
     right: 0;
+    font-weight: 800;
 }
 
 .navbar-item {
@@ -105,23 +110,22 @@ a:hover {
     height: 100%;
     background: rgba(28, 216, 210, 0.45);
     background: -webkit-linear-gradient(to left, rgba(28, 216, 210, 0.45), rgba(147, 237, 199, 0.45)); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, rgba(239, 239, 187, 0.3), rgba(212, 211, 221, 0.3)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+    background: linear-gradient(to left, rgba(239, 239, 187, 0.3), rgba(212, 211, 221, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .hero-title {
-    font-size: 46px;
+    font-size: 70px;
     margin-bottom: 20px;
 }
 
 .hero-subtitle {
-    font-size: 20px;
+    font-size: 36px;
 }
 .navbar-logo {
     width: 40px;
     margin-top: -8px;
 }
-.about-content {
+.section-content {
     padding-left: 100px;
     padding-right: 100px;
     line-height: 2;
@@ -133,6 +137,8 @@ a:hover {
     padding-bottom: 100px;
 }
 
-.about-title {
+.section-title {
     font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
 }
