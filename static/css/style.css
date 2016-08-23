@@ -1,0 +1,138 @@
+html {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float: right;
+}
+
+body {
+    margin: 0px;
+    font-family:'Montserrat','helvetica neue';
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition:0.25s;
+    transition:0.25s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.img-scaled {
+    width: 100%;
+    display: block;
+}
+.img-scaled-wh {
+    width:100%;
+    height:100%;
+    display:block;
+}
+
+
+.hero {
+    background: url(/static/images/cover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+
+.navbar {
+    overflow: auto;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    padding-top: 20px;
+    background: rgba(0,0,0,0.1);
+    background: -webkit-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0));/* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0));/* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0));/* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0));/* Standard syntax */
+    border: none;
+    border-radius: 0px;
+    padding-bottom: 20px;
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68); //IE
+    background: rgba(0, 0, 0, 0.78); //NON-IE
+}
+.hero-content {
+    width: 500px;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    z-index: 10;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.navbar-item {
+    margin-right: 40px;
+}
+.cover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 216, 210, 0.45);
+    background: -webkit-linear-gradient(to left, rgba(28, 216, 210, 0.45), rgba(147, 237, 199, 0.45)); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgba(239, 239, 187, 0.3), rgba(212, 211, 221, 0.3)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+.hero-title {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+}
+.navbar-logo {
+    width: 40px;
+    margin-top: -8px;
+}
+.about-content {
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 2;
+    color: #360033;
+}
+
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-title {
+    font-size: 36px;
+}
