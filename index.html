@@ -1,6 +1,7 @@
 <html>
 <head>
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/static/css/style.css">
     <script src="/static/js/jquery-1.9.1.js"></script>
     <script src="/static/js/script.js"></script>
@@ -10,8 +11,8 @@
 
     <div class="navbar">
         <a href="#"><div class="navbar-item left navbar-logo"><img src="/static/images/diamond.png" class="img-scaled"></div></a>
-        <div class="navbar-item left">About</div>
-        <div class="navbar-item left">Experience</div>
+        <a href="#about"><div class="navbar-item left">About</div></a>
+        <a href="#experience"><div class="navbar-item left">Experience</div></a>
         <div class="navbar-item left">Contact</div>
         <div class="navbar-item right">Blog</div>
     </div>
@@ -27,9 +28,51 @@
     </section>
 
     <section id="about">
-        <div class="section-content">
-            <div class="section-title">About Me</div>
-            <div class="section-info">I'm a rising senior at American University excited to build a career in business development. I am passionate about working for organizations that focus on environmental awareness, music and the arts, youth advocacy, and education.<br><br>During my undergraduate studies I've lived in Washington D.C. and London, where I attended the London School of Economics. My professional experience is in business development so I have a strong background in marketing, fundraising, communications and event planning. In my administrative work, I am most excited when I am able to integrate youth education. Whether working in a music store, at a nature conservancy or a Hebrew school, I have always treasured the opportunities to work directly with kids who want to learn.<br><br>I am eager to apply my skills in community outreach and business development.</div>
+        <div class="container">
+            <div class="row">
+                <div class="section-content col-md-6 col-centered">
+                    <div class="section-title">About Me</div>
+                    <div class="section-info">I'm a rising senior at American University excited to build a career in business development. I am passionate about working for organizations that focus on environmental awareness, music and the arts, youth advocacy, and education.<br><br>During my undergraduate studies I've lived in Washington D.C. and London, where I attended the London School of Economics. My professional experience is in business development so I have a strong background in marketing, fundraising, communications and event planning. In my administrative work, I am most excited when I am able to integrate youth education. Whether working in a music store, at a nature conservancy or a Hebrew school, I have always treasured the opportunities to work directly with kids who want to learn.<br><br>I am eager to apply my skills in community outreach and business development.</div>
+                </div>
+                <div class="col-md-6 col-centered">
+                    <div class="personal-picture"><img src="/static/images/sarah.jpg" class="img-scaled img-circle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <section id="experience">
+        <div class="container">
+            <div class="row experience-row">
+                
+                <div class="experience-text col-md-4 col-centered">
+                    <div class="experience-title">London School of Economics and Political Science</div>
+                    <div class="experience-info">Studying at LSE through the highly competitive 1 year General Course study abroad program from Fall of 2015 to 2016</div>
+                </div>
+                <div class="col-md-4 col-centered">
+                    <div class="experience-image">
+                        <img src="/static/images/lse.png" class="img-scaled img-circle">
+                    </div>
+                </div>
+                    
+            </div>
+
+            <div class="row experience-row">
+                <div class="col-md-4 col-centered nonvisible">Blank</div>
+                <div class="col-md-4 col-centered">
+                    <div class="experience-image">
+                        <img src="/static/images/au.png" class="img-scaled img-circle">
+                    </div>
+                </div>
+                <div class="experience-text col-md-4 col-centered">
+                    <div class="experience-title">American University</div>
+                    <div class="experience-info">Bachelor of Science (BS), Bachelor of Arts (BA), Business Administration and International Relations</div>
+                </div>
+                
+                    
+            </div>
         </div>
     </section>
 </body>
