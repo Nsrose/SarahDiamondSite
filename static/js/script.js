@@ -14,6 +14,10 @@ function checkScroll(){
 
 $(document).ready(function() {
 
+    // Adjust date
+    var year = (new Date()).getUTCFullYear();
+    $(".copyright").text("© " + year.toString() + " | Sarah Bianta Diamond");
+
 
     if($('.navbar').length > 0){
         $(window).on("scroll load resize", function(){
