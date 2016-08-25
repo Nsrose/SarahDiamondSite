@@ -152,7 +152,6 @@ a:hover {
     overflow: auto;
     background: rgb(51, 52, 71);
     color: white;
-    padding: 100px;
 }
 
 .experience-container {
@@ -174,7 +173,7 @@ a:hover {
     vertical-align: middle;
 }
 .personal-picture {
-    width: 400px;
+    width: 500px;
 }
 .experience-text {
     vertical-align: top;
@@ -183,16 +182,57 @@ a:hover {
     visibility: hidden;
 }
 .experience-title {
-    font-size: 30px;
+    font-size: 28px;
     border-bottom: 1px solid grey;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    position: relative;
+    overflow: auto;
 }
 
 .experience-info {
     line-height: 2;
-    font-size: 16px;
 }
 .experience-row {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+}
+.experience-title-background {
+    background: url(/static/images/sf.jpg) no-repeat center left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+}
+.experience-title-content {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    font-size: 36px;
+    z-index: 11;
+}
+.experience-section-title {
+    overflow: auto;
+    position: relative;
+    height: 200px;
+    margin-bottom: 150px;
+}
+.experience-title-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(11, 72, 107, 0.4);
+    background: -webkit-linear-gradient(90deg, rgba(11, 72, 107, 0.4), rgba(245, 98, 23, 0.5));/* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, rgba(11, 72, 107, 0.4), rgba(245, 98, 23, 0.5));/* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, rgba(11, 72, 107, 0.4), rgba(245, 98, 23, 0.5));/* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg,rgba(11, 72, 107, 0.4), rgba(245, 98, 23, 0.5));/* Standard syntax */
 }
