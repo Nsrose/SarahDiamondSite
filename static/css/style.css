@@ -190,6 +190,10 @@ a:hover {
     overflow: auto;
 }
 
+.section-info {
+    font-size: 16px;
+}
+
 .experience-info {
     line-height: 2;
 }
@@ -214,7 +218,6 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 190px;
-    font-size: 36px;
     z-index: 11;
 }
 .experience-section-title {
@@ -317,7 +320,6 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     width: 150px;
-    font-size: 36px;
     z-index: 11;
     color: white;
 }

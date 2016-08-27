@@ -11,8 +11,29 @@ function checkScroll(){
     }
 }
 
+function adjustSize() {
+    console.log("Calling adjust size")
+    var viewportWidth = $(window).width();
+    var viewportHeight = $(window).height();
+    if (viewportWidth <= 1000) {
+        $(".section-title").css("font-size", 40);
+        $(".section-info").css("font-size", 26);
+        $(".experience-title").css("font-size", 32);
+    } else {
+        $(".section-title").css("font-size", 36);
+        $(".section-info").css("font-size", 16);
+        $(".experience-title").css("font-size", 28);
+    }
+}
+
+
 
 $(document).ready(function() {
+    adjustSize();
+
+    $(window).resize(function() {
+        adjustSize();
+    });
 
     // Adjust date
     var year = (new Date()).getUTCFullYear();
